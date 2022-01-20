@@ -17,3 +17,11 @@
   color: #61dafb;
 }
 
+:root {
+  scroll-padding-top: 88px;
+  scroll-behavior: smooth;
+}
+
+.main {
+  margin-top: 88px;
+}
