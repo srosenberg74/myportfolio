@@ -13,7 +13,7 @@ function Profile() {
         <img
           src={Sam}
           alt={""}
-          className="w-50 float-md-start d-none d-md-block border border-dark rounded-1 me-4 mt-2"
+          className="w-50 float-md-start d-none d-md-block border mb-2 border-dark rounded-1 me-4 mt-2"
         />
       </div>
       <div className="mb-2">

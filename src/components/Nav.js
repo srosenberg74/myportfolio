@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top"
+        className="navbar navbar-expand-lg navbar-dark fixed-top px-3"
         style={style1}
       >
         <div className="container-fluid">
