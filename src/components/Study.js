@@ -46,7 +46,7 @@ function Study() {
         className="fs-5 fw-bold mb-4"
         style={{ lineHeight: "1.4", color: "#082c45d7", fontFamily: "Raleway" }}
       >
-        <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
+        <strong className="fw-bolder fs-5" style={{ color: "#082c45" }}>
           Additional Programming Languages Studied -
         </strong>
         <br />
