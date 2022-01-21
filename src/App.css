@@ -19,3 +19,18 @@ video {
   padding: 0;
   max-height: 180px;
 }
+
+.portfolio-piece {
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolio-piece:hover {
+  box-shadow: 5px 8px 8px rgb(105, 104, 104);
+  transform: scale(1.1);
+  border: 1px solid #082c45a8;
+  border-radius: 8px;
+}
+
+.last {
+  max-width: 440px;
+}
