@@ -86,7 +86,14 @@ function Portfolio() {
       <div className="row mx-auto text-center">
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={CardVideo} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -110,12 +117,29 @@ function Portfolio() {
                 </a>
               </strong>
               <br />A Reshareable Greeting eCard
+              <a
+                href="https://github.com/srosenberg74/ecard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i
+                  className="fab fa-github fa-lg icon"
+                  style={{ color: "#082c45" }}
+                ></i>
+              </a>
             </p>
           </div>
         </div>
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={DecidrVideo} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -145,7 +169,14 @@ function Portfolio() {
         </div>
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={HauntedHouse} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -176,7 +207,14 @@ function Portfolio() {
         </div>
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={Marvel} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -216,7 +254,14 @@ function Portfolio() {
         </div>
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={Guitarists} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -245,7 +290,14 @@ function Portfolio() {
         </div>
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={Ashe} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -275,7 +327,14 @@ function Portfolio() {
         </div>
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={DragonBattle} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -306,7 +365,14 @@ function Portfolio() {
 
         <div className="col-lg-6">
           <div className="portfolio-piece mx-1 my-1 px-1">
-            <video width="340" height="340" autoPlay muted loop>
+            <video
+              width="340"
+              height="340"
+              onMouseOver={(event) => event.target.play()}
+              onMouseOut={(event) => event.target.pause()}
+              muted
+              loop
+            >
               <source src={Sisters} type="video/webm" />
               Your browser does not support the video tag.
             </video>
@@ -336,7 +402,14 @@ function Portfolio() {
           </div>
         </div>
         <div className="last portfolio-piece mx-auto my-1 px-1">
-          <video width="340" height="340" autoPlay muted loop>
+          <video
+            width="340"
+            height="340"
+            onMouseOver={(event) => event.target.play()}
+            onMouseOut={(event) => event.target.pause()}
+            muted
+            loop
+          >
             <source src={DragonBodyguard} type="video/webm" />
             Your browser does not support the video tag.
           </video>
@@ -360,7 +433,7 @@ function Portfolio() {
               </a>
             </strong>
             <br />
-            Skyrim mod creating a Dragon Bodyguard for the player
+            Skyrim mod creating a Dragon Bodyguard
           </p>
         </div>
         <p
@@ -380,6 +453,7 @@ function Portfolio() {
               rel="noreferrer"
             >
               My Github
+              <i className="fab fa-github fa-2x icon"></i>
             </a>
           </strong>
         </p>
