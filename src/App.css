@@ -34,3 +34,11 @@ video {
 .last {
   max-width: 440px;
 }
+
+.icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
