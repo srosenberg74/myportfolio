@@ -13,7 +13,7 @@ import Sisters from "../Gifs/Video/Sisters.webm";
 function Portfolio() {
   return (
     <div>
-      <div className="w-75 mx-auto mt-5 mb-0 pb-0">
+      {/* <div className="w-75 mx-auto mt-5 mb-0 pb-0">
         <div
           id="carouselExampleControls"
           className="carousel slide w-50 mx-auto"
@@ -76,7 +76,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <h2
         className="mb-3 mt-4 text-center"
         style={{ color: "#082c45a8", fontFamily: "PT Serif", fontSize: "60px" }}
@@ -89,7 +89,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -135,7 +138,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -172,7 +178,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -210,7 +219,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -257,7 +269,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -293,7 +308,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -330,7 +348,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -368,7 +389,10 @@ function Portfolio() {
             <video
               width="340"
               height="340"
-              onMouseOver={(event) => event.target.play()}
+              onMouseOver={(event) => {
+                event.target.play();
+                event.target.playbackRate = 2;
+              }}
               onMouseOut={(event) => event.target.pause()}
               muted
               loop
@@ -405,7 +429,10 @@ function Portfolio() {
           <video
             width="340"
             height="340"
-            onMouseOver={(event) => event.target.play()}
+            onMouseOver={(event) => {
+              event.target.play();
+              event.target.playbackRate = 2;
+            }}
             onMouseOut={(event) => event.target.pause()}
             muted
             loop
