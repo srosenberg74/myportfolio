@@ -23,6 +23,8 @@ video {
 .portfolio-piece {
   transition: all 0.2s ease-in-out;
   background-color: #dfdddd;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .portfolio-piece:hover {
@@ -51,5 +53,10 @@ video {
     width: 100vw;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .portfolio-piece:hover {
+    transform: scale(1.02);
+    border: 1px solid grey;
   }
 }
