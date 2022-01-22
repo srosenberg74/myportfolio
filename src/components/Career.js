@@ -17,7 +17,7 @@ function Career() {
           <strong className="fw-bolder fs-4" style={{color: "#082c45"}}
             >React Apprentice | Alphaworks | Sept 2021-current </strong
           ><br />I am truly blessed to be an Alphaworks Apprentice. For one
-          year, I am being paid to do what I love, learn! Lead by Juan Lucero,
+          year I am being paid to do what I love, learn! Lead by Juan Lucero,
           an amazing and experienced Web Designer, and with an incredible group
           of apprentices, I am learning and honing more and more of the skills I
           will need to succeed in the tech world everyday.

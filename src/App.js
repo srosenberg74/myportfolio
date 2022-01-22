@@ -13,7 +13,7 @@ function App() {
     <div className="main mb-5 pb-5">
       <div className="pt-4 mt-5"></div>
       <div
-        className="container px-4 pb-3 border border-secondary rounded-2 mx-auto w-75 my-3 clearfix"
+        className="container pb-3 border border-secondary rounded-2 mx-auto my-3 clearfix main-container"
         style={{ backgroundColor: "#dfdddd" }}
       >
         <HashRouter>

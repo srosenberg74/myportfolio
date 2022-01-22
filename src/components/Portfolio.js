@@ -95,7 +95,6 @@ function Portfolio() {
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={CardVideo} type="video/webm" />
               Your browser does not support the video tag.
@@ -144,7 +143,6 @@ function Portfolio() {
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={DecidrVideo} type="video/webm" />
               Your browser does not support the video tag.
@@ -180,11 +178,10 @@ function Portfolio() {
               height="340"
               onMouseOver={(event) => {
                 event.target.play();
-                event.target.playbackRate = 2;
+                event.target.playbackRate = 1.5;
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={HauntedHouse} type="video/webm" />
               Your browser does not support the video tag.
@@ -225,7 +222,6 @@ function Portfolio() {
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={Marvel} type="video/webm" />
               Your browser does not support the video tag.
@@ -271,11 +267,11 @@ function Portfolio() {
               height="340"
               onMouseOver={(event) => {
                 event.target.play();
-                event.target.playbackRate = 2;
+                event.target.playbackRate = 1.2;
+                event.target.currentTime = 1;
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={Guitarists} type="video/webm" />
               Your browser does not support the video tag.
@@ -310,7 +306,8 @@ function Portfolio() {
               height="340"
               onMouseOver={(event) => {
                 event.target.play();
-                event.target.playbackRate = 2;
+                event.target.playbackRate = 1;
+                event.target.currentTime = 1;
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
@@ -350,11 +347,11 @@ function Portfolio() {
               height="340"
               onMouseOver={(event) => {
                 event.target.play();
-                event.target.playbackRate = 2;
+                event.target.playbackRate = 1;
+                event.target.currentTime = 1.08;
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={DragonBattle} type="video/webm" />
               Your browser does not support the video tag.
@@ -391,11 +388,11 @@ function Portfolio() {
               height="340"
               onMouseOver={(event) => {
                 event.target.play();
-                event.target.playbackRate = 2;
+                event.target.playbackRate = 1;
+                event.target.currentTime = 0.9;
               }}
               onMouseOut={(event) => event.target.pause()}
               muted
-              loop
             >
               <source src={Sisters} type="video/webm" />
               Your browser does not support the video tag.
@@ -431,11 +428,11 @@ function Portfolio() {
             height="340"
             onMouseOver={(event) => {
               event.target.play();
-              event.target.playbackRate = 2;
+              event.target.playbackRate = 1;
+              event.target.currentTime = 1;
             }}
             onMouseOut={(event) => event.target.pause()}
             muted
-            loop
           >
             <source src={DragonBodyguard} type="video/webm" />
             Your browser does not support the video tag.

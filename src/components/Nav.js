@@ -10,10 +10,10 @@ function Nav() {
     <div>
       <nav
         className="navbar navbar-expand-lg navbar-dark fixed-top px-3"
-        style={style1}
+        style={{ fontFamily: "monospace", backgroundColor: "#082c45" }}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand fs-2 nav-item" to={"/"}>
+          <Link className="navbar-brand fs-2 nav-item" to={"/"} style={style1}>
             Sam Rosenberg
           </Link>
           <button
@@ -30,31 +30,27 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to={"/profile"}
-                >
+                <Link className="nav-link" aria-current="page" to={"/profile"}>
                   Profile
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to={"/study"}>
+                <Link className="nav-link" to={"/study"}>
                   Areas of Study
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to={"/career"}>
+                <Link className="nav-link" to={"/career"}>
                   Career Development
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to={"/education"}>
+                <Link className="nav-link" to={"/education"}>
                   Education
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" to={"/portfolio"}>
+                <Link className="nav-link" to={"/portfolio"}>
                   Portfolio
                 </Link>
               </li>
