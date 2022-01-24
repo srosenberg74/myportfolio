@@ -10,11 +10,11 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="main mb-5 pb-5">
+    <div className="main pb-5">
       <div className="pt-4 mt-5"></div>
       <div
-        className="container pb-3 border border-secondary rounded-2 mx-auto my-3 clearfix main-container"
-        style={{ backgroundColor: "#dfdddd" }}
+        className="container pb-3 rounded-2 mx-auto my-3 clearfix main-container"
+        style={{ }}
       >
         <HashRouter>
           <Nav />

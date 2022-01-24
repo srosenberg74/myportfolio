@@ -1,40 +1,66 @@
 .App {
   text-align: center;
-  background-color: slategrey;
+  /* background-color: slategrey; */
 }
 
 :root {
   scroll-padding-top: 88px;
   scroll-behavior: smooth;
-  background-color: slategrey;
+  /* background-color: slategrey; */
 }
 
 .main {
-  background-color: slategrey;
+  background: radial-gradient(#f1ecec, #b5bae2, #f1ecec, #b2b7e7);
+  background: radial-gradient(rgb(95, 110, 160), #cdd0eb);
   margin-top: 60px;
+  min-height: 100vh;
+  margin-bottom: 0;
 }
 
 video {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0;
   max-height: 180px;
+  box-shadow: 3px 3px 14px rgb(129, 129, 129);
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  transition: all 0.5s ease-in-out;
 }
 
 .portfolio-piece {
-  transition: all 0.2s ease-in-out;
-  background-color: #dfdddd;
+  transition: all 0.4s ease-in-out;
+  background: radial-gradient(#fcf8f8, #cdd0eb);
+  background: radial-gradient(rgb(201, 146, 252), rgb(158, 172, 250));
+  /* background-color:rgba(129, 129, 129,0.04); */
   margin-top: 5px;
   margin-bottom: 5px;
+  box-shadow: 2px 2px 4px rgb(112, 112, 112);
+  border-radius: 30px;
+  min-height: 380px;
+  max-width: 340px;
+}
+
+.card-text {
+  background: radial-gradient(rgb(95, 110, 160), #cdd0eb);
+  background: radial-gradient(#9b9cec, #7e8bec);
 }
 
 .portfolio-piece:hover {
-  box-shadow: 5px 8px 8px rgb(105, 104, 104);
-  transform: scale(1.14);
+  box-shadow: 6px 5px 8px rgb(105, 104, 104);
+  transform: scale(1.04);
+  /* border: 0.1px solid #bebcbca8; */
+}
+
+video:hover {
+  box-shadow: 7px 7px 8px rgb(93, 93, 93);
+  transform: scale(1.4) translateY(10px);
   border: 0.1px solid #bebcbca8;
 }
 
 .last {
-  max-width: 440px;
+  max-width: 340px;
+  margin-top: 40px;
 }
 
 .icon {
@@ -43,7 +69,7 @@ video {
 }
 
 .main-container {
-  width: 75vw;
+  /* width: 75vw; */
   padding-left: 24px;
   padding-right: 24px;
 }

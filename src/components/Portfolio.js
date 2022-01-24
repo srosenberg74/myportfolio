@@ -21,55 +21,55 @@ function Portfolio() {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={CardVideo} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={DecidrVideo} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={HauntedHouse} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={Marvel} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={Guitarists} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={Ashe} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={Sisters} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={DragonBodyguard} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
             </div>
             <div className="carousel-item">
-              <video width="340" height="270" autoPlay muted loop>
+              <video width="180" height="270" autoPlay muted loop>
                 <source src={DragonBattle} type="video/webm" />
                 Your browser does not support the video tag.
               </video>
@@ -84,11 +84,11 @@ function Portfolio() {
         Portfolio
       </h2>
       <div className="row mx-auto text-center">
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 2;
@@ -100,11 +100,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -132,11 +136,11 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 2;
@@ -148,11 +152,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -171,11 +179,11 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 1.5;
@@ -187,11 +195,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -211,11 +223,11 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 2;
@@ -227,11 +239,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -260,11 +276,11 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 1.2;
@@ -277,11 +293,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -299,11 +319,11 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 1;
@@ -317,11 +337,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -340,11 +364,11 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 1;
@@ -357,11 +381,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -381,11 +409,11 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="col-lg-6">
-          <div className="portfolio-piece mx-1 my-1 px-1">
+        <div className="col-md-6 col-xl-4">
+          <div className="portfolio-piece mx-auto my-3 px-3">
             <video
-              width="340"
-              height="340"
+              width="180"
+              height="105"
               onMouseOver={(event) => {
                 event.target.play();
                 event.target.playbackRate = 1;
@@ -398,11 +426,15 @@ function Portfolio() {
               Your browser does not support the video tag.
             </video>
             <p
-              className="fs-5 fw-bold"
+              className="fs-5 fw-bold card-text"
               style={{
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
+                boxShadow: "4px 4px 6px grey",
+                minHeight: "150px",
+                padding: "10px",
+                borderRadius: "10px",
               }}
             >
               <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -422,10 +454,10 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="last portfolio-piece mx-auto my-1 px-1">
+        <div className="last portfolio-piece mx-auto my-3 px-3">
           <video
-            width="340"
-            height="340"
+            width="180"
+            height="105"
             onMouseOver={(event) => {
               event.target.play();
               event.target.playbackRate = 1;
@@ -438,11 +470,15 @@ function Portfolio() {
             Your browser does not support the video tag.
           </video>
           <p
-            className="fs-5 fw-bold"
+            className="fs-5 fw-bold card-text"
             style={{
               lineHeight: "1.4",
               color: "#082c45d7",
               fontFamily: "raleway",
+              boxShadow: "4px 4px 6px grey",
+              minHeight: "150px",
+              padding: "10px",
+              borderRadius: "10px",
             }}
           >
             <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
@@ -466,6 +502,10 @@ function Portfolio() {
             lineHeight: "1.4",
             color: "#082c45d7",
             fontFamily: "raleway",
+            boxShadow: "4px 4px 6px grey",
+            minHeight: "150px",
+            padding: "10px",
+            borderRadius: "10px",
           }}
         >
           <strong className="fw-bolder fs-1" style={{ color: "#082c45" }}>
