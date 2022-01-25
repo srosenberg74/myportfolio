@@ -2,7 +2,7 @@ import React from 'react';
 
 function Career() {
   return (
-  <div>
+  <div className="content">
         <h2
           className="my-3 fs-1"
           style={{color: "#082c45a8", fontFamily: "PT Serif"}}

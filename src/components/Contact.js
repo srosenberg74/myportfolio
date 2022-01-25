@@ -15,12 +15,18 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact">
-      <h1 className="contact">Contact Me</h1>
-      <p>
+    <div className="contact content">
+      <h1 className="contact" style={{ color: "#082c45a8" }}>
+        Contact Me
+      </h1>
+      <div className="contact-body">
         <form>
           <div className="mb-3">
-            <label htmlFor="name" className="form-label">
+            <label
+              htmlFor="name"
+              className="form-label"
+              style={{ color: "#082c45" }}
+            >
               Your Name*
             </label>
             <input
@@ -32,7 +38,11 @@ export default function Contact() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="subject" className="form-label">
+            <label
+              htmlFor="subject"
+              className="form-label"
+              style={{ color: "#082c45" }}
+            >
               Subject*
             </label>
             <input
@@ -43,7 +53,11 @@ export default function Contact() {
             />
           </div>
           <div className="mb-3">
-            <label htmlFor="message" className="form-label">
+            <label
+              htmlFor="message"
+              className="form-label"
+              style={{ color: "#082c45" }}
+            >
               Your Message*
             </label>
             <textarea
@@ -55,13 +69,14 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="btn btn-primary"
+            className="btn"
+            style={{ backgroundColor: "#082c45", color: "white" }}
             onClick={(event) => sendContactForm(event)}
           >
             Submit
           </button>
         </form>
-      </p>
+      </div>
     </div>
   );
 }

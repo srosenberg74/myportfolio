@@ -3,7 +3,7 @@ import Sam from "../images/Sam.jpg";
 
 function Profile() {
   return (
-    <div>
+    <div className="profile">
       <div>
         <img
           src={Sam}

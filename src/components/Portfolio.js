@@ -77,12 +77,12 @@ function Portfolio() {
           </div>
         </div>
       </div> */}
-      <h2
-        className="mb-3 mt-4 text-center"
+      <h1
+        className="mb-2 mt-4 text-center portfolio-header"
         style={{ color: "#082c45a8", fontFamily: "PT Serif", fontSize: "60px" }}
       >
         Portfolio
-      </h2>
+      </h1>
       <div className="row mx-auto text-center">
         <div className="col-md-6 col-xl-4">
           <div className="portfolio-piece mx-auto my-3 px-3">
@@ -105,7 +105,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -157,7 +157,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -200,7 +200,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -244,7 +244,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -298,7 +298,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -342,7 +342,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -386,7 +386,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -431,7 +431,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "2px 2px 6px grey",
+                boxShadow: "5px 5px 8px 2px grey",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -475,7 +475,7 @@ function Portfolio() {
               lineHeight: "1.4",
               color: "#082c45d7",
               fontFamily: "raleway",
-              boxShadow: "2px 2px 6px grey",
+              boxShadow: "5px 5px 8px 2px grey",
               minHeight: "150px",
               padding: "10px",
               borderRadius: "10px",

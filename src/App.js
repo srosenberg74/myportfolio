@@ -8,7 +8,7 @@ import Portfolio from "./components/Portfolio";
 import Content from "./components/Content";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
-import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
