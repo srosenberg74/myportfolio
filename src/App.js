@@ -12,7 +12,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="main pb-5">
+    <div className="main">
       <div className="pt-5 mt-5"></div>
       <div
         className="container pb-3 rounded-2 mx-auto my-3 clearfix main-container"

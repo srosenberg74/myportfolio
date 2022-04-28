@@ -85,7 +85,7 @@ function Portfolio() {
       </h1>
       <div className="row mx-auto text-center">
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -105,7 +105,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -137,7 +137,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -157,7 +157,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -180,7 +180,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -200,7 +200,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -224,7 +224,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -244,7 +244,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -277,7 +277,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -298,7 +298,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -320,7 +320,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -342,7 +342,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -365,7 +365,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -386,7 +386,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -410,7 +410,7 @@ function Portfolio() {
         </div>
 
         <div className="col-md-6 col-xl-4">
-          <div className="portfolio-piece mx-auto my-3 px-3">
+          <div className="portfolio-piece mx-auto my-5 px-3">
             <video
               width="180"
               height="105"
@@ -431,7 +431,7 @@ function Portfolio() {
                 lineHeight: "1.4",
                 color: "#082c45d7",
                 fontFamily: "raleway",
-                boxShadow: "5px 5px 8px 2px grey",
+                boxShadow: "2px 3px 16px 4px dimgray",
                 minHeight: "150px",
                 padding: "10px",
                 borderRadius: "10px",
@@ -454,7 +454,7 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="last portfolio-piece mx-auto my-3 px-3">
+        <div className="last portfolio-piece mx-auto my-5 px-3">
           <video
             width="180"
             height="105"
@@ -475,7 +475,7 @@ function Portfolio() {
               lineHeight: "1.4",
               color: "#082c45d7",
               fontFamily: "raleway",
-              boxShadow: "5px 5px 8px 2px grey",
+              boxShadow: "2px 3px 16px 4px dimgray",
               minHeight: "150px",
               padding: "10px",
               borderRadius: "10px",
