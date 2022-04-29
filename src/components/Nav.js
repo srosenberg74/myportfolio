@@ -29,32 +29,32 @@ function Nav() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item clickable">
                 <Link className="nav-link" onClick={ ()=>window.scrollTo(0, 0)} aria-current="page" to={"/profile"}>
                   Profile
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item clickable">
                 <Link className="nav-link" onClick={ ()=>window.scrollTo(0, 0)} to={"/study"}>
                   Areas of Study
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item clickable">
                 <Link className="nav-link" onClick={ ()=>window.scrollTo(0, 0)} to={"/career"}>
                   Career Development
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item clickable">
                 <Link className="nav-link" onClick={ ()=>window.scrollTo(0, 0)} to={"/education"}>
                   Education
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item clickable">
                 <Link className="nav-link" onClick={ ()=>window.scrollTo(0, 0)} to={"/portfolio"}>
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item clickable">
                 <Link className="nav-link" onClick={ ()=>window.scrollTo(0, 0)} to={"/contact"}>
                   Contact
                 </Link>

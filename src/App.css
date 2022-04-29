@@ -50,9 +50,9 @@ video {
   box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
     0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221),
     4px 7px 12px 20px rgb(105, 105, 105), inset 0px 0px 20px rgba(0, 0, 0, 0.9);
-    box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
+    /* box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
     0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221),
-    4px 7px 12px 20px rgb(105, 105, 105);
+    4px 7px 12px 20px rgb(105, 105, 105); */
   border-radius: 30px;
   min-height: 380px;
   max-width: 340px;
@@ -154,6 +154,18 @@ h1,
 
 .nav-item {
   padding-left: 5px;
+}
+
+.clickable::after {
+  content: '';
+  border-bottom: 3px solid rgb(146, 145, 145);
+  display: block;
+  transform: scaleX(0) translateY(-40px);
+  transition: transform 320ms ease-in-out;
+}
+
+.clickable:hover::after {
+  transform: scaleX(.8) translateY(-8px) rotate(360deg);
 }
 
 form {
