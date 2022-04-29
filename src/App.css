@@ -25,6 +25,8 @@
   margin-bottom: 0;
   padding-bottom: 0;
   overflow: hidden;
+  box-shadow: inset 0px 0px 800px rgba(49, 183, 245, 0.534),
+    inset 0px 0px 1400px black;
 }
 
 video {
@@ -46,7 +48,11 @@ video {
   margin-top: 5px;
   margin-bottom: 5px;
   box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
-    0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221), 4px 7px 12px 20px rgb(105, 105, 105);
+    0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221),
+    4px 7px 12px 20px rgb(105, 105, 105), inset 0px 0px 20px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
+    0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221),
+    4px 7px 12px 20px rgb(105, 105, 105);
   border-radius: 30px;
   min-height: 380px;
   max-width: 340px;
@@ -82,14 +88,16 @@ button:active {
 .content {
   width: 70%;
   margin: 0 auto;
-  
 }
 
 .card-text {
   /* background: radial-gradient(rgb(95, 110, 160), #cdd0eb); */
   /* background: radial-gradient(#9b9cec, #7e8bec); */
-  background-color: rgb(158, 172, 250);
+  background-color: rgb(188, 197, 253);
+  padding: 40px;
 }
+
+
 
 .portfolio-piece:hover,
 .touchable:hover {
@@ -104,6 +112,9 @@ video:hover {
   transform: scale(3.4);
   border: 0.1px solid #bebcbca8;
   background-color: rgb(158, 172, 250);
+  box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
+  0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221),
+  4px 7px 12px 20px rgb(105, 105, 105);
 }
 
 .last {
@@ -123,8 +134,10 @@ video:hover {
 }
 
 img {
-  box-shadow: 3px 3px 8px 4px rgb(77, 76, 76);
-  animation: reveal-2 1 1s ease-in-out;
+  width: 80%;
+  height: 80%;
+  box-shadow: 2px 3px 8px 5px rgb(63, 63, 63);
+  animation: reveal-2 1 1.4s ease-in-out;
 }
 
 .contact,
@@ -144,9 +157,11 @@ h1,
 }
 
 form {
-  box-shadow: 4px 10px 12px 4px rgb(77, 76, 76);
-  padding: 30px;
+  box-shadow:  2px 3px 10px 3px rgb(29, 28, 28), inset 2px 2px 42px 8px rgb(37, 37, 37);
+  padding: 50px;
   border-radius: 20px;
+  /* background-color: rgb(158, 172, 250); */
+  background-color: #9292ec;
 }
 
 @media only screen and (max-width: 500px) {
@@ -207,7 +222,7 @@ form {
 
 h1,
 h2 {
-  animation: slide-in 1 0.4s ease-out;
+  animation: slide-in 1 1s ease-out;
   padding-bottom: 40px;
 }
 
@@ -244,5 +259,5 @@ h2 {
 p,
 hr,
 .contact-body {
-  animation: reveal-1 1 0.7s ease-out;
+  animation: reveal-1 1 1.4s ease-out;
 }
