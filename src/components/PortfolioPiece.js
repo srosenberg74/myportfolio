@@ -10,7 +10,7 @@ function PortfolioPiece({
   currentTime,
 }) {
   return (
-    <div className="col-md-6 col-xl-4">
+    <div className="col-md-6 col-xl-4 piece-wrapper">
       <div className="portfolio-piece mx-auto my-5 px-3">
         <video
           width="180"
