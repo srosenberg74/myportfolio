@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ae91261.css",
+    "main.css": "/static/css/main.f52a7521.css",
     "main.js": "/static/js/main.9d100c6f.js",
     "static/js/787.d3283060.chunk.js": "/static/js/787.d3283060.chunk.js",
     "static/media/DragonBodyguard.webm": "/static/media/DragonBodyguard.1c3cd38a85bd2f71d222.webm",
@@ -14,12 +14,12 @@
     "static/media/Sam.jpg": "/static/media/Sam.340edcc0ba8115a6edb7.jpg",
     "static/media/Marvel.webm": "/static/media/Marvel.87434ce4e17c4631c341.webm",
     "index.html": "/index.html",
-    "main.7ae91261.css.map": "/static/css/main.7ae91261.css.map",
+    "main.f52a7521.css.map": "/static/css/main.f52a7521.css.map",
     "main.9d100c6f.js.map": "/static/js/main.9d100c6f.js.map",
     "787.d3283060.chunk.js.map": "/static/js/787.d3283060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ae91261.css",
+    "static/css/main.f52a7521.css",
     "static/js/main.9d100c6f.js"
   ]
 }
