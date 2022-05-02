@@ -2,7 +2,7 @@
   "name": "portfolio-react2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://srosenberg74.github.io/myportfolio/",
+  "homepage": "https://srosenberg74.github.io/portfolio-react2/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@testing-library/jest-dom": "^5.16.1",
