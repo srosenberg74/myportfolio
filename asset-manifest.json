@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-react2/static/css/main.7ae91261.css",
-    "main.js": "/portfolio-react2/static/js/main.fa9d0522.js",
-    "static/js/787.d3283060.chunk.js": "/portfolio-react2/static/js/787.d3283060.chunk.js",
-    "static/media/DragonBodyguard.webm": "/portfolio-react2/static/media/DragonBodyguard.1c3cd38a85bd2f71d222.webm",
-    "static/media/DragonBattle.webm": "/portfolio-react2/static/media/DragonBattle.50c9eb5ea1790c5bf463.webm",
-    "static/media/Card.webm": "/portfolio-react2/static/media/Card.a0092a2b9c922beaeaec.webm",
-    "static/media/Decidr.webm": "/portfolio-react2/static/media/Decidr.270ff2f2b060cd8bff94.webm",
-    "static/media/HauntedHouse.webm": "/portfolio-react2/static/media/HauntedHouse.371c7ffc185ee92564ef.webm",
-    "static/media/Ashe.webm": "/portfolio-react2/static/media/Ashe.3f297a2f35b10f69c5f9.webm",
-    "static/media/Sisters.webm": "/portfolio-react2/static/media/Sisters.a544eb56756a695b82e3.webm",
-    "static/media/Guitarists.webm": "/portfolio-react2/static/media/Guitarists.a4ec6a022876e0a067e3.webm",
-    "static/media/Sam.jpg": "/portfolio-react2/static/media/Sam.340edcc0ba8115a6edb7.jpg",
-    "static/media/Marvel.webm": "/portfolio-react2/static/media/Marvel.87434ce4e17c4631c341.webm",
-    "index.html": "/portfolio-react2/index.html",
-    "main.7ae91261.css.map": "/portfolio-react2/static/css/main.7ae91261.css.map",
-    "main.fa9d0522.js.map": "/portfolio-react2/static/js/main.fa9d0522.js.map",
-    "787.d3283060.chunk.js.map": "/portfolio-react2/static/js/787.d3283060.chunk.js.map"
+    "main.css": "/static/css/main.7ae91261.css",
+    "main.js": "/static/js/main.9d100c6f.js",
+    "static/js/787.d3283060.chunk.js": "/static/js/787.d3283060.chunk.js",
+    "static/media/DragonBodyguard.webm": "/static/media/DragonBodyguard.1c3cd38a85bd2f71d222.webm",
+    "static/media/DragonBattle.webm": "/static/media/DragonBattle.50c9eb5ea1790c5bf463.webm",
+    "static/media/Card.webm": "/static/media/Card.a0092a2b9c922beaeaec.webm",
+    "static/media/Decidr.webm": "/static/media/Decidr.270ff2f2b060cd8bff94.webm",
+    "static/media/HauntedHouse.webm": "/static/media/HauntedHouse.371c7ffc185ee92564ef.webm",
+    "static/media/Ashe.webm": "/static/media/Ashe.3f297a2f35b10f69c5f9.webm",
+    "static/media/Sisters.webm": "/static/media/Sisters.a544eb56756a695b82e3.webm",
+    "static/media/Guitarists.webm": "/static/media/Guitarists.a4ec6a022876e0a067e3.webm",
+    "static/media/Sam.jpg": "/static/media/Sam.340edcc0ba8115a6edb7.jpg",
+    "static/media/Marvel.webm": "/static/media/Marvel.87434ce4e17c4631c341.webm",
+    "index.html": "/index.html",
+    "main.7ae91261.css.map": "/static/css/main.7ae91261.css.map",
+    "main.9d100c6f.js.map": "/static/js/main.9d100c6f.js.map",
+    "787.d3283060.chunk.js.map": "/static/js/787.d3283060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ae91261.css",
-    "static/js/main.fa9d0522.js"
+    "static/js/main.9d100c6f.js"
   ]
 }
