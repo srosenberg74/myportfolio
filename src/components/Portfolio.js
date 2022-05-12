@@ -4,21 +4,20 @@ import PortfolioPiece from "./PortfolioPiece";
 import Data from "./Data";
 
 function Portfolio() {
-
   const generateItems = Data.map((piece, index) => {
     return (
       <PortfolioPiece
-      videoURL={piece.videoURL}
-      title={piece.title}
-      description={piece.description}
-      siteAddress={piece.siteAddress}
-      githubAddress={piece.githubAddress}
-      playbackRate={piece.playbackRate}
-      currentTime={piece.currentTime}
+        key={index}
+        videoURL={piece.videoURL}
+        title={piece.title}
+        description={piece.description}
+        siteAddress={piece.siteAddress}
+        githubAddress={piece.githubAddress}
+        playbackRate={piece.playbackRate}
+        currentTime={piece.currentTime}
       />
-    )
-  }
-  )
+    );
+  });
   return (
     <div>
       <h1

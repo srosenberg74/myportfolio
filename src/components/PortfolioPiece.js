@@ -14,11 +14,11 @@ function PortfolioPiece({
       <div className="portfolio-piece mx-auto my-5 px-3">
         <video
           width="180"
-          height="105"
+          height="102"
           onMouseOver={(event) => {
             event.target.play();
-            event.target.playbackRate = { playbackRate };
-            event.target.currentTime = { currentTime };
+            event.target.playbackRate = parseFloat(playbackRate);
+            event.target.currentTime = parseFloat(currentTime);
           }}
           onMouseOut={(event) => event.target.pause()}
           muted
@@ -26,8 +26,8 @@ function PortfolioPiece({
           <source src={videoURL} type="video/webm" />
           Your browser does not support the video tag.
         </video>
-        <p className="fs-5 fw-bold card-text">
-          <strong className="fw-bolder fs-4" style={{ color: "#082c45" }}>
+        <p className="fw-bold card-text">
+          <strong className="fw-bolder fs-5" style={{ color: "#082c45" }}>
             <a
               className=""
               style={{ color: "#082c45" }}

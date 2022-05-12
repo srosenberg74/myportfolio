@@ -15,8 +15,8 @@ const Data = [
     description: "A Reshareable Greeting eCard",
     siteAddress: "https://srosenberg74.github.io/ecard/",
     githubAddress: "https://github.com/srosenberg74/ecard",
-    playbackRate: 2,
-    currentTime: null,
+    playbackRate: 2.0,
+    currentTime: 0,
   },
   {
     videoURL: DecidrVideo,
@@ -24,8 +24,8 @@ const Data = [
     description: "An app that helps you make decisions!",
     siteAddress: "https://srosenberg74.github.io/decidr/",
     githubAddress: null,
-    playbackRate: 2,
-    currentTime: null,
+    playbackRate: 2.0,
+    currentTime: 0,
   },
   {
     videoURL: HauntedHouse,
@@ -35,7 +35,7 @@ const Data = [
     siteAddress: "https://luceroweb.github.io/haunted-house-game/#/",
     githubAddress: null,
     playbackRate: 1.5,
-    currentTime: null,
+    currentTime: 0,
   },
   {
     videoURL: Marvel,
@@ -44,8 +44,8 @@ const Data = [
       "Our Apprentice Group created a social networking site for superheroes(Group Project)",
     siteAddress: "https://eyobel7k.github.io/team-black-panther/",
     githubAddress: null,
-    playbackRate: 2,
-    currentTime: null,
+    playbackRate: 2.0,
+    currentTime: 0,
   },
   {
     videoURL: Guitarists,
@@ -54,7 +54,7 @@ const Data = [
     siteAddress: "https://www.bridgegood.com/dragonpanda/portfolio/11586",
     githubAddress: null,
     playbackRate: 1.2,
-    currentTime: 1,
+    currentTime: 1.0,
   },
   {
     videoURL: Ashe,
@@ -62,8 +62,8 @@ const Data = [
     description: "An animated playing card for Ashe from Overwatch",
     siteAddress: "https://www.bridgegood.com/dragonpanda/portfolio/11601",
     githubAddress: null,
-    playbackRate: 1,
-    currentTime: 1,
+    playbackRate: 1.0,
+    currentTime: 1.0,
   },
   {
     videoURL: DragonBattle,
@@ -71,7 +71,7 @@ const Data = [
     description: "Skyrim mod creating an epic Dragon Battle over Riverwood!",
     siteAddress: "https://www.youtube.com/watch?v=k7Zs0l9G9hw",
     githubAddress: null,
-    playbackRate: 1,
+    playbackRate: 1.0,
     currentTime: 1.08,
   },
   {
@@ -81,8 +81,8 @@ const Data = [
       "Just a quick fun assignment from Unreal Engine while learning about assigning animations and using sockets.",
     siteAddress: "https://www.bridgegood.com/dragonpanda/portfolio/11592",
     githubAddress: null,
-    playbackRate: 1,
-    currentTime: .9,
+    playbackRate: 1.0,
+    currentTime: 0.9,
   },
   {
     videoURL: DragonBodyguard,
@@ -90,8 +90,8 @@ const Data = [
     description: "Skyrim mod creating a Dragon Bodyguard",
     siteAddress: "https://www.youtube.com/watch?v=ZKSU_HjPpXE",
     githubAddress: null,
-    playbackRate: 1,
-    currentTime: 1,
+    playbackRate: 1.0,
+    currentTime: 1.0,
   },
 ];
 
