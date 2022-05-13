@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c24c7dd2.css",
-    "main.js": "/static/js/main.91c7341d.js",
-    "static/js/787.d3283060.chunk.js": "/static/js/787.d3283060.chunk.js",
+    "main.css": "/static/css/main.da0d0acb.css",
+    "main.js": "/static/js/main.3b5573eb.js",
+    "static/js/787.3b65c34c.chunk.js": "/static/js/787.3b65c34c.chunk.js",
     "static/media/DragonBodyguard.webm": "/static/media/DragonBodyguard.1c3cd38a85bd2f71d222.webm",
     "static/media/DragonBattle.webm": "/static/media/DragonBattle.50c9eb5ea1790c5bf463.webm",
     "static/media/Card.webm": "/static/media/Card.a0092a2b9c922beaeaec.webm",
@@ -14,12 +14,12 @@
     "static/media/Sam.jpg": "/static/media/Sam.340edcc0ba8115a6edb7.jpg",
     "static/media/Marvel.webm": "/static/media/Marvel.87434ce4e17c4631c341.webm",
     "index.html": "/index.html",
-    "main.c24c7dd2.css.map": "/static/css/main.c24c7dd2.css.map",
-    "main.91c7341d.js.map": "/static/js/main.91c7341d.js.map",
-    "787.d3283060.chunk.js.map": "/static/js/787.d3283060.chunk.js.map"
+    "main.da0d0acb.css.map": "/static/css/main.da0d0acb.css.map",
+    "main.3b5573eb.js.map": "/static/js/main.3b5573eb.js.map",
+    "787.3b65c34c.chunk.js.map": "/static/js/787.3b65c34c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c24c7dd2.css",
-    "static/js/main.91c7341d.js"
+    "static/css/main.da0d0acb.css",
+    "static/js/main.3b5573eb.js"
   ]
 }
