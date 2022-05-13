@@ -6,21 +6,17 @@
 
 .App {
   text-align: center;
-
-  /* background-color: slategrey; */
 }
 
 :root {
   scroll-padding-top: 88px;
   scroll-behavior: smooth;
-  /* background-color: slategrey; */
 }
 
 .main {
   background: radial-gradient(#f1ecec, #b5bae2, #f1ecec, #b2b7e7);
   background: radial-gradient(rgb(95, 110, 160), #cdd0eb);
   background-color: white;
-  /* margin-top: 60px; */
   min-height: 100vh;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -42,8 +38,6 @@ video {
 
 .portfolio-piece {
   transition: all 0.3s ease-in-out;
-  /* background: radial-gradient(#fcf8f8, #cdd0eb);*/
-  /* background: radial-gradient(rgb(201, 146, 252), rgb(158, 172, 250));  */
   background-color: rgb(158, 172, 250);
   margin-top: 4.5px;
   margin-bottom: 4.5px;
@@ -57,14 +51,7 @@ video {
   min-height: 342px;
   max-width: 290px;
   animation: reveal-1 1 1.2s ease-out;
-  /* padding-left: 40px;
-  padding-right: 40px; */
 }
-
-/* .piece-wrapper {
-  margin-left: 10px;
-  margin-right: 10px;
-} */
 
 .touchable {
   transition: all 0.4s ease-in-out;
@@ -121,7 +108,6 @@ button:active {
     0px 0px 0px 28px rgb(114, 3, 189), 3px 4px 16px 31px rgb(77, 77, 77);
   transform: scale(1.04);
   background: radial-gradient(rgb(201, 146, 252), rgb(158, 172, 250));
-  /* border: 0.1px solid #bebcbca8; */
 }
 
 video:hover {
@@ -145,7 +131,6 @@ video:hover {
 }
 
 .main-container {
-  /* width: 75vw; */
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -192,9 +177,8 @@ form {
     0px 0px 240px 60px rgb(201, 146, 252);
   box-shadow: 2px 3px 10px 3px rgb(29, 28, 28),
     inset 2px 2px 42px 8px rgb(37, 37, 37);
-  padding: 50px;
+  padding: 36px;
   border-radius: 20px;
-  /* background-color: rgb(158, 172, 250); */
   background-color: #9292ec;
 }
 
@@ -229,12 +213,6 @@ form {
     width: 80%;
   }
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .reveal-1 {
-    animation: reveal-1 1 0.8s ease-in;
-  }
-} */
 
 @keyframes reveal-1 {
   0% {
