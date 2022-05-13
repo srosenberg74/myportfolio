@@ -28,31 +28,31 @@ function Portfolio() {
       </h1>
       <div className="row mx-auto text-center">
         {generateItems}
-        <p
-          className="fs-5 fw-bold mt-3 pt-3 touchable"
-          style={{
-            lineHeight: "1.4",
-            color: "#082c45d7",
-            fontFamily: "raleway",
-            minHeight: "150px",
-            padding: "10px",
-            borderRadius: "10px",
-            marginBottom: "20px",
-          }}
+        <a
+          className=""
+          style={{ color: "#082c45" }}
+          href="https://github.com/srosenberg74"
+          target="_blank"
+          rel="noreferrer"
         >
-          <strong className="fw-bolder fs-1" style={{ color: "#082c45" }}>
-            <a
-              className=""
-              style={{ color: "#082c45" }}
-              href="https://github.com/srosenberg74"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <p
+            className="fs-5 fw-bold mt-3 pt-3 touchable"
+            style={{
+              lineHeight: "1.4",
+              color: "#082c45d7",
+              fontFamily: "raleway",
+              minHeight: "150px",
+              padding: "10px",
+              borderRadius: "10px",
+              marginBottom: "20px",
+            }}
+          >
+            <strong className="fw-bolder fs-1" style={{ color: "#082c45" }}>
               My Github
               <i className="fab fa-github fa-2x icon"></i>
-            </a>
-          </strong>
-        </p>
+            </strong>
+          </p>
+        </a>
       </div>
     </div>
   );

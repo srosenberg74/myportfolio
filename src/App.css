@@ -47,6 +47,9 @@ video {
   box-shadow: 0px 0px 8px 8px rgb(29, 221, 221),
     0px 0px 12px 12px rgb(19, 4, 153), 0px 0px 0px 18px rgb(29, 221, 221),
     4px 7px 12px 20px rgb(105, 105, 105);
+  box-shadow: 0px 0px 8px 5px rgb(158, 172, 248),
+    0px 0px 12px 14px rgb(130, 140, 196), 0px 0px 0px 22px rgb(94, 103, 156),
+    4px 7px 12px 24px rgb(65, 64, 64);
   border-radius: 30px;
   min-height: 322px;
   max-width: 290px;
@@ -104,10 +107,16 @@ button:active {
 
 .portfolio-piece:hover,
 .touchable:hover {
-  box-shadow: 0px 0px 18px 14px rgb(211, 31, 235),
+  /* box-shadow: 0px 0px 18px 14px rgb(211, 31, 235),
     0px 0px 0px 28px rgb(114, 3, 189), 3px 4px 16px 31px rgb(77, 77, 77);
-  transform: scale(1.04);
-  background: radial-gradient(rgb(201, 146, 252), rgb(158, 172, 250));
+    box-shadow: 0px 0px 8px 6px rgb(158, 172, 248),
+    0px 0px 12px 14px rgb(130, 140, 196), 0px 0px 0px 24px rgb(94, 103, 156),
+    4px 7px 12px 28px rgb(53, 52, 52); */
+    box-shadow: 0px 0px 8px 5px rgb(158, 172, 248),
+    0px 0px 12px 14px rgb(130, 140, 196), 0px 0px 0px 22px rgb(94, 103, 156),
+    4px 7px 12px 26px rgb(49, 49, 49);
+  transform: scale(1.06);
+  background: rgb(158, 172, 250);
 }
 
 video:hover {
@@ -118,6 +127,9 @@ video:hover {
   box-shadow: 0px 0px 8px 5px rgb(29, 221, 221),
     0px 0px 12px 6px rgb(19, 4, 153), 0px 0px 0px 10px rgb(29, 221, 221),
     4px 7px 12px 600px rgba(51, 51, 51, 0.7);
+    box-shadow: 0px 0px 8px 4px rgb(158, 172, 248),
+    0px 0px 12px 7px rgb(130, 140, 196), 0px 0px 0px 10px rgb(94, 103, 156),
+    4px 7px 12px 600px rgba(12, 12, 12, 0.9);
 }
 
 .last {
